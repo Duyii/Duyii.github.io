@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://duyii.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jan 2020 15:59:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://duyii.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python--基础Python知识</title>
+      <link>https://duyii.github.io/post/blog/</link>
+      <pubDate>Fri, 03 Jan 2020 15:59:49 +0800</pubDate>
+      
+      <guid>https://duyii.github.io/post/blog/</guid>
+      <description>1.Python程序中对中文的支持   在Python3中，是默认支持中文的，但是在Python2中，如果在程序中使用中文，直接运行输出程序会出错，解决方法为：在程序的开头写入如下代码#coding=utf-8
+  在Python的语法规范中推荐使用的方式： # -*- coding:utf-8 -*-
+  2.变量以及类型  程序就是用来处理数据的,而变量就是用来存储数据的
+ 2.1变量的定义  概念：用来临时保存数据 格式：变量名=数值 作用：1.便于项目的升级和维护 2.节约内存  2.2变量的类型  str：中文 字母 符号 数字 int：数字 float：数字和小数点 bool：True和False type函数  格式：type(变量名或者数值) 作用：用来查看变量或者数值的数据类型    3.标识符和关键字 3.1标识符  概念：由程序员在程序开发中定义的一些符号或者是名称 组成：字母，数字，下划线，且数字不能开头 注意：==Python中标识符是严格区分大小写的==  3.2关键字  概念：由Python定义的有特殊作用的标识符 如何查看一个版本的关键字  导入模块import keyword 输出结果keyword kwlist   注意点：==实际开发中我们定义的标识符不要和关键字冲突==  3.3命名规则  大驼峰命名法  MyName 类名   小驼峰命名法  myName 变量 函数 方法 模块 包   下划线命名法  my_name 变量 函数 方法 模块 包    4.</description>
+    </item>
+    
+  </channel>
+</rss>
